@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;;
+    font-weight: 700;
+    color: #024731;
+    background-color: #ffffff;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+a:link {
+    color: #006a4d;
+}
+
+a:hover {
+    color: #dc2a4d;
+}
+
+.landing-page {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    color: #024731;
+}
+
+.header {
+    background-color: #006a4d;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    margin: 40px 20px 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#header-content {
+    padding: 0;
+    color: #ffffff;
+}
+
+#parent-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 10px 10px;
+    padding-top: 50px;;
+}
+
+#parent-information,
+#parent-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.circle-container {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #024731;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+
+.contributors {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 482px) and (max-width: 767px) {
+    #parent-team,
+    #parent-information,
+    #parent-social {
+        flex-wrap: wrap;
+    }
+
+    .circle-container {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #parent-team,
+    #parent-information,
+    #parent-social {
+        flex-wrap: wrap;
+    }
+
+    .circle-container {
+        flex-basis: auto;
+    }
+}
