@@ -18,6 +18,10 @@ h1 {
     font-size: 28px;
 }
 
+a#header-content:link {
+    color: #ffffff;
+    text-decoration: none;
+}
 a:link {
     color: #006a4d;
 }
