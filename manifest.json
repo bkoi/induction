@@ -1,0 +1,9 @@
+{
+    "name": "New Joiner Induction Pack",
+    "short_name": "Induction",
+    "description": "Induction pack for all new LBG joiners",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#006a4d"
+}
