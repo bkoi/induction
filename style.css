@@ -18,21 +18,6 @@ h1 {
     font-size: 28px;
 }
 
-<<<<<<< HEAD
-a#header-content:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-a:link {
-    color: #006a4d;
-}
-
-a:hover {
-    color: #dc2a4d;
-}
-
-=======
->>>>>>> 7fd79506c18178a313519d27d833e36093c936fe
 .landing-page {
     width: auto;
     margin: 0 auto;
@@ -102,7 +87,10 @@ a:hover {
     margin: 20px 10px;
 }
 
-
+a#header-content:link {
+    color: #ffffff;
+    text-decoration: none;
+}
 a:link {
     color: #006a4d;
 }
