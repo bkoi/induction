@@ -39,6 +39,17 @@ h1 {
     width: 100%;
 }
 
+.cta-container {
+    background-color: transparent;
+    color:#024731;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;  
+    margin: 20px 10px 25px;
+    text-align: center;
+}
+
 .circle-container {
     width: 125px;
     height: 125px;

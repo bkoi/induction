@@ -18,18 +18,21 @@
         </header>
         <main>
             <section>
+                <div class="cta-container">
+                    <p>A very warm welcome to you! Please use this page along with the LBG New Start Hub.</p>
+                </div>
                 <div id="parent-team">
                     <div class="circle-container">
-                        <a href="#" target="_blank"><h4>Team Everest</h4></a>
+                        <a href="#" target="_blank"><h3>Team Everest</h3></a>
                     </div>
                     <div class="circle-container">
-                        <a href="#" target="_blank"><h4>Team Nevis</h4></a>
+                        <a href="#" target="_blank"><h3>Team Nevis</h3></a>
                     </div>
                     <div class="circle-container">
-                        <a href="#" target="_blank"><h4>Team Lomond</h4></a>
+                        <a href="#" target="_blank"><h3>Team Lomond</h3></a>
                     </div>
                     <div class="circle-container">
-                        <a href="#" target="_blank"><h4>Team Snowdon</h4></a>
+                        <a href="#" target="_blank"><h3>Team Snowdon</h3></a>
                     </div>
                 </div>
             </section>
@@ -59,10 +62,18 @@
         </main>
         <footer>
             <div class="contributors">
-                <h4>Contributors:</h4>
-                    <span><a href="mailto:bernadettkoi@yahoo.co.uk">Saima Miah</a></span> and
-                    <span><a href="mailto:bernadettkoi@yahoo.co.uk">Clare Wilson</a></span>
+                <h5>Contributors:</h5>
+                    <span><a href="mailto:bernadettkoi@yahoo.co.uk"><h5>Saima Miah</a></span></h5>
+                    <span><a href="mailto:bernadettkoi@yahoo.co.uk"><h5>Clare Wilson</h5></a></span>
             </div>
         </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const ctaContainer = document.querySelector('.cta-container');
+                setTimeout(function() {
+                    ctaContainer.style.display = 'none';
+                }, 3000);
+            });
+        </script>
     </body>
 </html>
